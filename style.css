@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 246px;
+    width: 100%;
+}
+
+.header-logo {
+    width: 600px;
+    font-size: 22px;
+}
+
+.header-logo-text {
+    padding-left: 130px;
+    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #54b862;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.header-list {
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-links {
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Nunito', sans-serif;
+}
+
+.header-button {
+    margin-right: 20px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 16px;
+    background-color: #54b862;
+    color: #021639;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-radius: 50%;
+    letter-spacing: 1px;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-left {
+    width: 1150px;
+    background-color: #1d2026;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.greet-user {
+    color: #ff9d3c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    font-size: 17px;
+    margin-left: 115px;
+    padding-top: 130px;
+}
+
+.hero-text-1 {
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(20px);
+    margin-left: 115px;
+    font-weight: 700;
+    font-size: 92px;
+    letter-spacing: -1px;
+    line-height: 120px;
+    width: 500px;
+    color: #ffffff;
+}
+
+.hero-text-2 {
+    margin-left: 115px;
+    transform: translateY(50px);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #abb8ae;
+    word-spacing: 1px;
+    letter-spacing: 0.7px;
+    width: 500px;
+}
+
+.hero-button {
+    margin-left: 115px;
+    transform: translateY(110px);
+    background-color: #ffffff;
+    color: #021639;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-radius: 35px;
+    padding: 20px 70px;
+    font-size: 20px;
+    
+}
+
+.hero-right {
+    flex: 1;
+    background-image: url("images/hero-right.jpg");
+    background-size: cover;
+}
