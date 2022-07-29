@@ -9,7 +9,7 @@
     <link rel = "stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,38 +30,40 @@
             <div class = "hero-left">
                 <h3 class = "greet-user">- Hello, Shayan!</h3>
                 <h1 class = "hero-text-1">Eat Good Live Good</h1>
-                <h2 class = "hero-text-2">From high quality sushi to crispy fries, get your favourite food from +200k restaurants delivered to your doorstep across US.</h2>
+                <h2 class = "hero-text-2">From high quality sushi to crispy fries, get your favourite food from <span class = "count-k"><strong>+200k</strong></span> restaurants delivered to your doorstep across US.</h2>
                 <button class = "hero-button">Order Now</button>
             </div>
             <div class = "hero-right"></div>
         </div>
-        <div class = "main-cards-container">
-            <h3>Choose Your Taste</h3>
-            <h4>All your favourite cuisine at one stop</h3>
-            <div class = "main-cards card-1">
-                <img src = "images/japan-card.avif" alt = "Japanese cuisine" class = "main-cards-image card-image-1">
-                <h4 class = "main-cards-header card-header-1">Japanese cuisine</h4>
-                <button class = "main-cards-button card-button-1">Explore</button>
-            </div>
-            <div class = "main-cards card-2">
-                <img src = "images/india-card.avif" alt = "Indian cuisine" class = "main-cards-image card-image-2">
-                <h4 class = "main-cards-header card-header-2">Indian cuisine</h4>
-                <button class = "main-cards-button card-button-2">Explore</button>
-            </div>
-            <div class = "main-cards card-3">
-                <img src = "images/italy-card.avif" alt = "Italian cuisine" class = "main-cards-image card-image-3">
-                <h4 class = "main-cards-header card-header-3">Italian cuisine</h4>
-                <button class = "main-cards-button card-button-3">Explore</button>
+        <div class = "main-container">
+            <h3 class = "taste">Choose Your Taste</h3>
+            <h4 class = "taste-2">All your favourite cuisine at one stop</h3>
+            <div class = "cards-container">
+                <div class = "main-cards card-1">
+                    <img src = "images/japan-card.jpg" alt = "Japanese cuisine" class = "main-cards-image card-image-1">
+                    <h4 class = "main-cards-header card-header-1">Japanese cuisine</h4>
+                    <button class = "main-cards-button card-button-1">Explore</button>
+                </div>
+                <div class = "main-cards card-2">
+                    <img src = "images/india-card.jpg" alt = "Indian cuisine" class = "main-cards-image card-image-2">
+                    <h4 class = "main-cards-header card-header-2">Indian cuisine</h4>
+                    <button class = "main-cards-button card-button-2">Explore</button>
+                </div>
+                <div class = "main-cards card-3">
+                    <img src = "images/italy-card.jpg" alt = "Italian cuisine" class = "main-cards-image card-image-3">
+                    <h4 class = "main-cards-header card-header-3">Italian cuisine</h4>
+                    <button class = "main-cards-button card-button-3">Explore</button>
+                </div>
             </div>
         </div>
         <div class = "about">
+            <div class = "about-left">
+                <img src = "images/apple-iphone-12-pro-medium.png" alt = "Oishi on iPhone" class = "iphone">
+            </div>
             <div class = "about-right">
                 <h3 class = "about-header">About Us</h3>
-                <p class = "about-text">Choose from our large menu of high quality healthy savourings. From sashimi to butter chicken masala, we have something to satisfy your taste buds. Get your favourite food delivered to your doorstep in 30 minutes from our library of +200k restaurants.</p>
+                <p class = "about-text">Choose from our large menu of high quality healthy savourings. From sashimi to butter chicken masala, we have something to satisfy your taste buds. Get your favourite food delivered to your doorstep in <span class = "thirty-mins"><strong>30 minutes</strong></span> from our library of <span class = "count-k"><strong>+200k</strong></span> restaurants.</p>
                 <button class = "about-button">Order Now</button>
-            </div>
-            <div class = "about-left">
-                <img src = "images/apple-iphone-12-pro-medium.png" alt = "Oishi on iPhone">
             </div>
         </div>
         <div class = "mobile-app">
@@ -70,8 +72,8 @@
                 <h4 class = "mobile-app-2">Get realtime delivery updates and exciting bonus when you sign up on the mobile app.</h4>
             </div>
             <div class = "mobile-right">
-                <a href = "https://www.apple.com/app-store/" class = "app-link apple-link"><img src = "images/app-store-logo.svg" alt = "Download on Apple App Store"></a>
-                <a href = "https://play.google.com/store/" class = "app-link google-link"><img src = "images/play-store-logo.png" alt = "Download on Google Play Store"></a>
+                <a href = "https://www.apple.com/app-store/" class = "app-link apple-link"><img src = "images/app-store-logo.png" alt = "Download on Apple App Store" class = "app-image apple-image"></a>
+                <a href = "https://play.google.com/store/" class = "app-link google-link"><img src = "images/play-store-logo.png" alt = "Download on Google Play Store" class = "app-image google-image"></a>
             </div>
         </div>
     </main>
@@ -79,42 +81,47 @@
         <div class = "footer-left">
             <h3 class = "footer-logo">Oi - shi</h3>
             <div class = "footer-links">
-
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-tiktok"></i>
             </div>
         </div>
         <div class = "footer-right">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-tiktok"></i>
-        </div>
-        <div class = "footer-left">
-            <div class = "footer-cities">
-                <h3 class = "cities-head">Top Cities</h3>
-                <h4 class = "cities">San Francisco</h4>
-                <h4 class = "cities">Los Angeles</h4>
-                <h4 class = "cities">New York</h4>
-                <h4 class = "cities">Seattle</h4>
-                <h4 class = "cities">Portland</h4>
+            <div class = "footer-element">
+                <h3 class = "footer-head">Top Cities</h3>
+                <div class = "footer-container">
+                    <h4 class = "footer-item">San Francisco</h4>
+                    <h4 class = "footer-item">Los Angeles</h4>
+                    <h4 class = "footer-item">New York</h4>
+                    <h4 class = "footer-item">Seattle</h4>
+                    <h4 class = "footer-item">Portland</h4>
+                </div>
             </div>
-            <div class = "footer-know">
-                <h3 class = "know-head">Get to Know Us</h3>
-                <h4 class = "know">About Us</h4>
-                <h4 class = "know">Careers</h4>
-                <h4 class = "know">Investors</h4>
-                <h4 class = "know">Merchants</h4>
-                <h4 class = "know">Engineering</h4>
+            <div class = "footer-element">
+                <h3 class = "footer-head">Get to Know Us</h3>
+                <div class = "footer-container">
+                    <h4 class = "footer-item">About Us</h4>
+                    <h4 class = "footer-item">Careers</h4>
+                    <h4 class = "footer-item">Investors</h4>
+                    <h4 class = "footer-item">Merchants</h4>
+                    <h4 class = "footer-item">Engineering</h4>
+                </div>
             </div>
-            <div class = "footer-business">
-                <h3 class = "business-head">Doing Business</h3>
-                <h4 class = "business">Be a Partner Restaurant</h4>
-                <h4 class = "business">Get Oi - shi for Workplace</h4>
-                <h4 class = "business">On Demand Delivery Service</h4>
-                <h4 class = "business">Work with Us</h4>
+            <div class = "footer-element">
+                <h3 class = "footer-head">Doing Business</h3>
+                <div class = "footer-container">
+                    <h4 class = "footer-item">Be a Partner Restaurant</h4>
+                    <h4 class = "footer-item">Get Oi - shi for Workplace</h4>
+                    <h4 class = "footer-item">On Demand Delivery Service</h4>
+                    <h4 class = "footer-item">Work with Us</h4>
+                </div>
             </div>
-            <div class = "office">
-                <h3 class = "footer-office">OUR OFFICE</h3>
-                <h4 class = "office-address">2040 Addison St, Berkeley, CA 94704, United States</h4>
+            <div class = "footer-element">
+                <h3 class = "footer-head">OUR OFFICE</h3>
+                <div class = "footer-container">
+                    <h4 class = "footer-item">2040 Addison St, Berkeley, CA 94704, United States</h4>
+                </div>
             </div>
         </div>
     </footer>
